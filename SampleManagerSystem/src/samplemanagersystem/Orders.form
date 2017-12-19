@@ -51,11 +51,6 @@
   </Layout>
   <SubComponents>
     <Component class="javax.swing.JLabel" name="OrdersImg">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vikto\Desktop\java gui\Untitled design (5).jpg"/>
-        </Property>
-      </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="220" y="30" width="-1" height="-1"/>
@@ -284,7 +279,7 @@
     <Component class="javax.swing.JButton" name="btnAdd">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vikto\Desktop\java gui\1=.jpg"/>
+          <Image iconType="3" name="/java gui/1=.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -299,7 +294,7 @@
     <Component class="javax.swing.JButton" name="btnEdit">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vikto\Desktop\java gui\edit.jpg"/>
+          <Image iconType="3" name="/java gui/edit.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -314,7 +309,7 @@
     <Component class="javax.swing.JButton" name="btnDelete">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vikto\Desktop\java gui\delete.jpg"/>
+          <Image iconType="3" name="/java gui/delete.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -341,7 +336,7 @@
     <Component class="javax.swing.JButton" name="btnSearch">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vikto\Desktop\java gui\serch.jpg"/>
+          <Image iconType="3" name="/java gui/serch.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -351,11 +346,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblBackground">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vikto\Desktop\java gui\lablewhite.png"/>
-        </Property>
-      </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="0" y="0" width="-1" height="-1"/>
