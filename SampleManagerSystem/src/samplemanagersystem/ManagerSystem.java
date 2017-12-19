@@ -40,7 +40,6 @@ public class ManagerSystem extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        btnCustomers.setIcon(new javax.swing.ImageIcon("C:\\Users\\vikto\\Desktop\\java gui\\costumers.jpg")); // NOI18N
         btnCustomers.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCustomersActionPerformed(evt);
@@ -48,7 +47,6 @@ public class ManagerSystem extends javax.swing.JFrame {
         });
         getContentPane().add(btnCustomers, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 60, 220, 120));
 
-        btnOffices.setIcon(new javax.swing.ImageIcon("C:\\Users\\vikto\\Desktop\\java gui\\offices.jpg")); // NOI18N
         btnOffices.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnOfficesActionPerformed(evt);
@@ -56,7 +54,6 @@ public class ManagerSystem extends javax.swing.JFrame {
         });
         getContentPane().add(btnOffices, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 200, 220, 120));
 
-        btnPlines.setIcon(new javax.swing.ImageIcon("C:\\Users\\vikto\\Desktop\\java gui\\olines.jpg")); // NOI18N
         btnPlines.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPlinesActionPerformed(evt);
@@ -64,7 +61,6 @@ public class ManagerSystem extends javax.swing.JFrame {
         });
         getContentPane().add(btnPlines, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 340, 220, 120));
 
-        btnOrderDetails.setIcon(new javax.swing.ImageIcon("C:\\Users\\vikto\\Desktop\\java gui\\orderdetails.jpg")); // NOI18N
         btnOrderDetails.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnOrderDetailsActionPerformed(evt);
@@ -72,7 +68,6 @@ public class ManagerSystem extends javax.swing.JFrame {
         });
         getContentPane().add(btnOrderDetails, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 480, 220, 120));
 
-        btnProducts.setIcon(new javax.swing.ImageIcon("C:\\Users\\vikto\\Desktop\\java gui\\produkt.jpg")); // NOI18N
         btnProducts.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnProductsActionPerformed(evt);
@@ -80,7 +75,6 @@ public class ManagerSystem extends javax.swing.JFrame {
         });
         getContentPane().add(btnProducts, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 200, 220, 120));
 
-        btnOrders.setIcon(new javax.swing.ImageIcon("C:\\Users\\vikto\\Desktop\\java gui\\order.jpg")); // NOI18N
         btnOrders.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnOrdersActionPerformed(evt);
@@ -88,7 +82,6 @@ public class ManagerSystem extends javax.swing.JFrame {
         });
         getContentPane().add(btnOrders, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 340, 220, 120));
 
-        btnPayments.setIcon(new javax.swing.ImageIcon("C:\\Users\\vikto\\Desktop\\java gui\\payment.jpg")); // NOI18N
         btnPayments.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPaymentsActionPerformed(evt);
@@ -96,7 +89,7 @@ public class ManagerSystem extends javax.swing.JFrame {
         });
         getContentPane().add(btnPayments, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 480, 220, 120));
 
-        btnEmployee.setIcon(new javax.swing.ImageIcon("C:\\Users\\vikto\\Desktop\\java gui\\Untitled-5.jpg")); // NOI18N
+        btnEmployee.setIcon(new javax.swing.ImageIcon(getClass().getResource("/java gui/employee1.jpg"))); // NOI18N
         btnEmployee.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEmployeeActionPerformed(evt);
@@ -104,7 +97,7 @@ public class ManagerSystem extends javax.swing.JFrame {
         });
         getContentPane().add(btnEmployee, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 60, 220, 120));
 
-        lblManagerSystem.setIcon(new javax.swing.ImageIcon("C:\\Users\\vikto\\Desktop\\java gui\\mansystem.jpg")); // NOI18N
+        lblManagerSystem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/java gui/Lable.jpg"))); // NOI18N
         getContentPane().add(lblManagerSystem, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1100, 660));
 
         pack();

@@ -26,11 +26,6 @@
   </Layout>
   <SubComponents>
     <Component class="javax.swing.JButton" name="btnCustomers">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vikto\Desktop\java gui\costumers.jpg"/>
-        </Property>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCustomersActionPerformed"/>
       </Events>
@@ -41,11 +36,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="btnOffices">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vikto\Desktop\java gui\offices.jpg"/>
-        </Property>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnOfficesActionPerformed"/>
       </Events>
@@ -56,11 +46,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="btnPlines">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vikto\Desktop\java gui\olines.jpg"/>
-        </Property>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPlinesActionPerformed"/>
       </Events>
@@ -71,11 +56,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="btnOrderDetails">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vikto\Desktop\java gui\orderdetails.jpg"/>
-        </Property>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnOrderDetailsActionPerformed"/>
       </Events>
@@ -86,11 +66,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="btnProducts">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vikto\Desktop\java gui\produkt.jpg"/>
-        </Property>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnProductsActionPerformed"/>
       </Events>
@@ -101,11 +76,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="btnOrders">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vikto\Desktop\java gui\order.jpg"/>
-        </Property>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnOrdersActionPerformed"/>
       </Events>
@@ -116,11 +86,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="btnPayments">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vikto\Desktop\java gui\payment.jpg"/>
-        </Property>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPaymentsActionPerformed"/>
       </Events>
@@ -133,7 +98,7 @@
     <Component class="javax.swing.JButton" name="btnEmployee">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vikto\Desktop\java gui\Untitled-5.jpg"/>
+          <Image iconType="3" name="/java gui/employee1.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -148,7 +113,7 @@
     <Component class="javax.swing.JLabel" name="lblManagerSystem">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vikto\Desktop\java gui\mansystem.jpg"/>
+          <Image iconType="3" name="/java gui/Lable.jpg"/>
         </Property>
       </Properties>
       <Constraints>
