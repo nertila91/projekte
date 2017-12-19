@@ -72,8 +72,8 @@ public class Products extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        ProductsImg.setIcon(new javax.swing.ImageIcon("C:\\Users\\vikto\\Desktop\\java gui\\Untitled design (3).jpg")); // NOI18N
-        getContentPane().add(ProductsImg, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 60, 540, 110));
+        ProductsImg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/java gui/Untitled design (3).jpg"))); // NOI18N
+        getContentPane().add(ProductsImg, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 60, 560, 110));
 
         lblProductCode.setFont(new java.awt.Font("Segoe UI", 1, 21)); // NOI18N
         lblProductCode.setText("ProductCode");
@@ -183,7 +183,7 @@ public class Products extends javax.swing.JFrame {
 
         getContentPane().add(tblProducts, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 190, 670, 350));
 
-        btnAdd.setIcon(new javax.swing.ImageIcon("C:\\Users\\vikto\\Desktop\\java gui\\1=.jpg")); // NOI18N
+        btnAdd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/java gui/1=.jpg"))); // NOI18N
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAddActionPerformed(evt);
@@ -191,7 +191,7 @@ public class Products extends javax.swing.JFrame {
         });
         getContentPane().add(btnAdd, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 550, 100, 100));
 
-        btnEdit.setIcon(new javax.swing.ImageIcon("C:\\Users\\vikto\\Desktop\\java gui\\edit.jpg")); // NOI18N
+        btnEdit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/java gui/edit.jpg"))); // NOI18N
         btnEdit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEditActionPerformed(evt);
@@ -199,7 +199,7 @@ public class Products extends javax.swing.JFrame {
         });
         getContentPane().add(btnEdit, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 550, 100, 100));
 
-        btnDelete.setIcon(new javax.swing.ImageIcon("C:\\Users\\vikto\\Desktop\\java gui\\delete.jpg")); // NOI18N
+        btnDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/java gui/delete.jpg"))); // NOI18N
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnDeleteActionPerformed(evt);
@@ -210,10 +210,8 @@ public class Products extends javax.swing.JFrame {
         txtSearch.setFont(new java.awt.Font("Segoe UI Symbol", 0, 24)); // NOI18N
         getContentPane().add(txtSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 550, 220, 100));
 
-        btnSearch.setIcon(new javax.swing.ImageIcon("C:\\Users\\vikto\\Desktop\\java gui\\serch.jpg")); // NOI18N
+        btnSearch.setIcon(new javax.swing.ImageIcon(getClass().getResource("/java gui/serch.jpg"))); // NOI18N
         getContentPane().add(btnSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 550, 100, 100));
-
-        lblBackGround.setIcon(new javax.swing.ImageIcon("C:\\Users\\vikto\\Desktop\\java gui\\lablewhite.png")); // NOI18N
         getContentPane().add(lblBackGround, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1100, 660));
 
         bindingGroup.bind();
